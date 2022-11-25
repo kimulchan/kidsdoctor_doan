@@ -24,7 +24,7 @@ const ThinkingSection = () => {
           창의성 발달 프로그램
         </ProgramItem>
         <ProgramItem color="yellow900" delay={0.6}>
-          연령별 맞춤형 프로그램
+          세계유명교구 보드게임
         </ProgramItem>
       </ProgramContainer>
       <BenefitContainer>
