@@ -1,7 +1,7 @@
 import { css } from "@emotion/react";
 import styled from "@emotion/styled";
 
-export const FullContainer = styled.div<{ src?: string }>`
+export const FullContainer = styled.section<{ src?: string }>`
   ${({ src }) =>
     src &&
     css`

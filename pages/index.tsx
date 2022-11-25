@@ -24,7 +24,7 @@ const Home: NextPage = () => {
   );
 };
 
-const FullPageScrollContainer = styled.div`
+const FullPageScrollContainer = styled.main`
   width: 100%;
   height: 100vh;
   overflow-y: scroll;

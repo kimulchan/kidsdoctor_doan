@@ -29,7 +29,7 @@ const FooterFullContainer = styled(FullContainer)`
   gap: 0;
 `;
 
-const Copywriting = styled.div`
+const Copywriting = styled.strong`
   color: ${({ theme }) => theme.white};
   font-size: 28px;
   width: 100%;

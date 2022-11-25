@@ -30,7 +30,7 @@ const Banner = () => {
   );
 };
 
-const BannerContainer = styled.div<{ src: string }>`
+const BannerContainer = styled.section<{ src: string }>`
   width: 100%;
   height: 100vh;
   background-image: url(${({ src }) => src});
@@ -44,7 +44,7 @@ const BannerContainer = styled.div<{ src: string }>`
   padding: 0 15px;
 `;
 
-const MainText = styled.div`
+const MainText = styled.h1`
   font-size: 32px;
   font-weight: 600;
   text-align: center;
@@ -54,7 +54,7 @@ const MainText = styled.div`
   }
 `;
 
-const BodyText = styled.div`
+const BodyText = styled.strong`
   text-align: center;
   font-size: 20px;
   font-weight: 500;

@@ -11,7 +11,7 @@ const Header = () => {
   );
 };
 
-const Container = styled.div`
+const Container = styled.header`
   position: fixed;
   width: 100%;
   height: 40px;

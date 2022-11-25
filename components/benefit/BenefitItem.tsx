@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-import { PropsWithChildren } from "react";
 import { BenefitType } from "../../model/benefitType";
 import { ThemeKeyType } from "../../styles/theme";
 
