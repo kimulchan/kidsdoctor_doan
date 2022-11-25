@@ -24,7 +24,10 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="키즈닥터도안영재학원" />
-        <meta property="og:description" content="키즈닥터 도안원입니다." />
+        <meta
+          property="og:description"
+          content="생각 공작소 키즈닥터 도안 영재학원"
+        />
         <meta
           property="og:image"
           content="https://kidsdoctor-doan.vercel.app/backgroundImage.png"
