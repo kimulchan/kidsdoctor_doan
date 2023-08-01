@@ -14,7 +14,7 @@ const InfoSection = () => {
   );
 };
 
-const Title = styled.h1`
+const Title = styled.h2`
   color: ${({ theme }) => theme.main};
   font-size: 32px;
   width: 100%;

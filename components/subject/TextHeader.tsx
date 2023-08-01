@@ -44,7 +44,7 @@ const ContentsText = styled.p`
   line-height: 41px;
 `;
 
-const TitleText = styled.h1`
+const TitleText = styled.h2`
   color: ${({ theme }) => theme.main};
   font-weight: 600;
   font-size: 48px;
